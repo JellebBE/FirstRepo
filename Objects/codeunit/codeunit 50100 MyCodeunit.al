@@ -5,5 +5,6 @@ codeunit 50100 MyCodeunit
     begin
         Message('Foo');
         error('TEST SCMGT');
+        //commentaar
     end;
 }
