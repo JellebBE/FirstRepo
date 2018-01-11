@@ -4,5 +4,6 @@ codeunit 50100 MyCodeunit
     local procedure DisplayMessageOnInsertCustomer(Customer: Record Customer; xCustomer: Record Customer; UpdateNeeded: Boolean);
     begin
         Message('Foo');
+        error('TEST SCMGT');
     end;
 }
